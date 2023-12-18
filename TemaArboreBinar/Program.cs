@@ -1,7 +1,13 @@
-﻿internal class Program
+﻿using TemaArboreBinar.Arborele;
+using TemaArboreBinar.Revolzari;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+       Solutii solutii = new Solutii();
+
+        solutii.solutia20();
+
     }
 }
